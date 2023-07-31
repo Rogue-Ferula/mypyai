@@ -14,7 +14,7 @@ import json
 import requests
 
 
-print('Loading your AI personal assistant - G One')
+print('Loading your AI personal assistant - Church')
 
 engine=pyttsx3.init('espeak')
 voices=engine.getProperty('voices')
@@ -52,7 +52,7 @@ def takeCommand():
             return "None"
         return statement
 
-speak("Loading your AI personal assistant G-One")
+speak("Loading Church")
 wishMe()
 
 
